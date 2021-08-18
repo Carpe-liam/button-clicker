@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-family: cursive;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.topBar{
+    height: 100px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #cccccc;
+}
+.searchBar{
+    width: 350px;
+    padding: 5px;
+    padding-left: 15px;
+    background: #ffffff;
+    margin: 10px;
+}
+
+/* MAIN PAGE CONTENT */
+.webpage{
+    margin-top: 15px;
+    display: flex;
+}
+.defs{
+    display: flex;
+    justify-content: center;
+    border: 4px solid black;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 35px;
+    flex: 4;
+}
+.part1{
+    width: 120px;
+}
+.part2{
+    width: 300px;
+    margin: 30px;
+}
+.words{
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.numLikes{
+    align-content: center;
+    margin-left: 25px;
+    margin-bottom: 20px;;
+}
+
+/* SIDEBAR CONTENT */
+.sidebar{
+    border: 4px solid black;
+    width: 340px;
+    height: 150px;
+}
+.contents{
+    justify-content: center;
+    align-content: center;
+    margin-left: 30px;
+}
+
+/* BUTTON STYLING */
+.logButton{
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    width: 80px;
+    height: 35px;
+    margin: 10px;
+    padding: 2px;
+    background: #3d79e7;
+    color: white;
+}
+.likeButton{
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    width: 90px;
+    height: 35px;
+    margin-top: 10px;
+    padding: 2px;
+    color: black;
+    background: #fbd85c;
+}
+.defButton{
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    
+    padding: 2px;
+    color: black;
+    background: #98c47a;
+}
